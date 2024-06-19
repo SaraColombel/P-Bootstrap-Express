@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Accueil</title>
+</head>
+<body>
+    <style>
+        @font-face {
+            font-family: Raleway;
+            src: url('/19.06/fonts/Raleway.ttf')
+        }
+
+        @font-face{
+            font-family: LemonMilk;
+            src: url('/19.06/fonts/LemonMilk.otf')
+        }
+
+        h1{
+            font-family: LemonMilk;
+        }
+
+        p,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        a {
+            font-family: Raleway;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/19.06/index.html">La Maison d'ici</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/19.06/index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/19.06/galerie.html">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/19.06/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Fermé du 12/08/24 au 15/09/24
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carrouselastronomie17juin">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/19.06/imgs/terrasse.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>La Maison d'ici</h3>
+                        <h4>5 étoiles - Tripadvisor</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/19.06/imgs/gitRenove.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>La Maison d'ici</h3>
+                        <h4>Rénovations terminées !</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/19.06/imgs/interieur.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Disponible 20/06</h3>
+                        <h4>Chambre luxueuse pour 2 personnes</h4>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <h1 class="text-center mt-4">Nouveautés</h1>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/19.06/imgs/piscineNaturellePetiteCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Piscine Naturelle</h5>
+                        <p class="card-text">Profitez de notre toute nouvelle piscine naturelle ! Fabriqué à base de roche de granite, cette piscine saura ravir vos étés en famille ! <br><br></p>
+                        <a href="/19.06/contact.html" class="btn btn-dark">Réserver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/19.06/imgs/journal.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Apparition dans le journal</h5>
+                        <p class="card-text">A l'occasion de notre 5ème année d'ouverture, le journal "Le Monde" présente notre gîte comme un lieu idéal de vacances !<br><br></p>
+                        <a href="/19.06/contact.html" class="btn btn-dark">Réserver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/19.06/imgs/salon.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Besoin d'un break ?</h5>
+                        <p class="card-text">Besoin d'un break ? N'attendez plus. Notre gîte fraîchement rénové peut devenir votre havre de paix !<br><br></p>
+                        <a href="/19.06/contact.html" class="btn btn-dark">Réserver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/19.06/imgs/cuisine.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Cuisinez n'a jamais été aussi agréable !</h5>
+                        <p class="card-text">Dans cette nouvelle cuisine vous pourrez retrouver, en plus d'une superbe luminosité, les tout nouveaux robots ménagés !</p>
+                        <a href="/19.06/contact.html" class="btn btn-dark">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row text-center mb-4 mt-5">
+            <div class="col-12">
+                <h1>Nous contacter</h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-end mb-4">
+            <div class="col-5">
+                <img src="/19.06/imgs/nousContacter.jfif" alt="Couple Mignon" width="500" class="rounded img-fluid">
+            </div>
+            <div class="col-7">
+                <p class="mb-1">Vous avez une question ? Ou vous souhaitez réserver vos prochaines vacances ? Envoyez-nous donc un message via notre formulaire de contact ! Nous vous répondrons dans les plus brefs délais ! <br><br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis ex minima asperiores suscipit, earum provident numquam ad obcaecati quidem sunt, harum temporibus? Officiis, sit deleniti ex sunt quas sed facere. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, id! Ea iusto aut, aspernatur hic unde error odio porro eaque non, cumque. <br><br></p>
+                <a href="/19.06/contact.html" class="btn btn-dark mt-3">Réserver</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="text-center text-lg-start bottom bg-dark">
+        <div class="container p-4 pb-0">
+            <div class="row">
+                
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-light">
+                        La Maison d'ici
+                    </h6>
+                    <p class="text-light">
+                        La Maison d'ici vous accueille dans un cadre chaleureux, au creux de la campagne Ariègeoise. Nous serions ravi de vous offrir les vacances dont vous rêvez tant !
+                    </p>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <hr class="w-100 clearfix d-md-none" />
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold text-light">
+                            Contact
+                        </h6>
+                        <p class="text-light">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                            </svg> Monesple, 09130
+                            France
+                        </p>
+                        <p class="text-light">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                            </svg>
+                            lamaisondici@gmail.com
+                        </p>
+                        <p class="text-light">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg> +09 38 37 70 22
+                        </p>
+                    </div>
+
+                    
+
+        <div class="text-center text-secondary p-3" style="background-color: #212529">
+            © 2024 Copyright:
+            <a class="text-secondary" href="https://discord.gg/zbD4njtA">
+                DEV31 ERN 24-01</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

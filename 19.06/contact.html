@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Nous contacter</title>
+</head>
+<body>
+    <style>
+        @font-face {
+            font-family: Raleway;
+            src: url('/19.06/fonts/Raleway.ttf')
+        }
+
+        @font-face{
+            font-family: LemonMilk;
+            src: url('/19.06/fonts/LemonMilk.otf')
+        }
+
+        h1{
+            font-family: LemonMilk;
+        }
+        
+        p,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        a {
+            font-family: Raleway;
+        }
+    </style>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/19.06/index.html">La Maison d'ici</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/19.06/index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/19.06/galerie.html">Galerie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/19.06/contact.html">Contact</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                Fermé du 12/08/24 au 15/09/24
+            </span>
+        </div>
+    </div>
+</nav>
+
+
+    <h1 class="text-center mt-3">Nous contacter</h1>
+    <div class="d-flex  justify-content-center container-fluid">
+        <form class="flex-column w-25" method=”post” action=”register.php”>
+            <div class="form-group mb-3 mt-3">
+                <label for="nom">Votre nom*</label>
+                <input type="text" required="required" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
+            </div>
+            <div class="form-group mb-4">
+                <label for="nom">Votre prénom*</label>
+                <input type="text" required="required" class="form-control" id="exampleFormControlInput1" placeholder="Prénom">
+            </div>
+            <div class="form-group mb-4">
+                <label for="exampleFormControlInput1">Votre email*</label>
+                <input type="email" required="required" class="form-control" id="exampleFormControlInput1" placeholder="nom@exemple.com">
+            </div>
+            <div class="form-group mb-4">
+                <label for="exampleFormControlSelect1">Sujet</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Choisir un sujet</option>
+                    <option>Réservation</option>
+                    <option>Question à propos du gîte</option>
+                    <option>Question à propos de nous</option>
+                    <option>Question générale</option>
+                </select>
+            </div>
+            <div class="form-group mb-2">
+                <label for="exampleFormControlTextarea1">Votre question*</label>
+                <textarea class="form-control" required="required" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" required="required" for="exampleCheck1">J'accepte que mes informations soient enregistrées pour l'envoi d'une réponse à ma question.</label>
+            </div>
+            <button type="submit" class="btn btn-dark mt-3 mb-4">Envoyer</button>
+            </form>
+        </form>
+                
+    </div>
+    
+
+
+<!-- Gallery -->
+
+<footer class="text-center text-lg-start bottom bg-dark">
+    <div class="container p-4 pb-0">
+        <div class="row">
+            
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold text-light">
+                    La Maison d'ici
+                </h6>
+                <p class="text-light">
+                    La Maison d'ici vous accueille dans un cadre chaleureux, au creux de la campagne Ariègeoise. Nous serions ravi de vous offrir les vacances dont vous rêvez tant !
+                </p>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+                <hr class="w-100 clearfix d-md-none" />
+                <hr class="w-100 clearfix d-md-none" />
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-light">
+                        Contact
+                    </h6>
+                    <p class="text-light">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                        </svg> Monesple, 09130
+                        France
+                    </p>
+                    <p class="text-light">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                        </svg>
+                        lamaisondici@gmail.com
+                    </p>
+                    <p class="text-light">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg> +09 38 37 70 22
+                    </p>
+                </div>
+
+                
+
+    <div class="text-center text-secondary p-3" style="background-color: #212529">
+        © 2024 Copyright:
+        <a class="text-secondary" href="https://discord.gg/zbD4njtA">
+            DEV31 ERN 24-01</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
